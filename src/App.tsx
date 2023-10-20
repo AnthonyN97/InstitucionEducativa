@@ -1,13 +1,13 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
-import Header from './components/header/Header';
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
+import Home from './pages/Home/Home';
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <>hola</>,
+    element: <Home/>,
   },
   {
     path: '/login',
@@ -24,6 +24,7 @@ function App() {
     <>
       <Header/>
       <RouterProvider router={router} />
+      <Footer/>
     </>
   );
 }
