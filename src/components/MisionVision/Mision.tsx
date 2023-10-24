@@ -1,7 +1,7 @@
 const Mision: React.FC = () => (
     <>
-        <div className="flex-wrap items-center justify-center gap-8 text-center sm:flex">
-            <div className="w-full px-4 py-4 mt-6 bg-white rounded-lg shadow-lg sm:w-1/2 md:w-1/2 lg:w-1/4 dark:bg-gray-800">
+        <div className="flex-wrap px-2 justify-center gap-2 text-center sm:flex">
+            <div className="w-full flex-1 px-4 py-4 mt-6 bg-white rounded-lg shadow-lg sm:w-1/2 md:w-1/2 lg:w-1/4 dark:bg-gray-800">
                 <div className="flex-shrink-0">
                     <div className="flex items-center justify-center w-12 h-12 mx-auto text-white bg-indigo-500 rounded-md">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
@@ -9,18 +9,17 @@ const Mision: React.FC = () => (
                         </svg>
                     </div>
                 </div>
-                <h3 className="py-4 text-2xl font-semibold text-gray-700 sm:text-xl dark:text-white">
+                <h3 className="py-4 text-2xl font-semibold text-gray-700 dark:text-white">
                     Mision
                 </h3>
                 <p className="py-4 text-gray-500 text-md dark:text-gray-300">
-                    Nuestra mision es Lorem ipsum dolor sit amet consectetur adipiscing elit lectus, dictumst litora dui per hendrerit
-                    class sociis. Auctor non senectus orci fusce duis congue sem tellus scelerisque, blandit potenti quisque habitant
-                    faucibus lectus vel litora sapien accumsan, neque posuere nunc metus pharetra varius dui nisi. Morbi et commodo
-                    egestas donec fames velit massa molestie fringilla, ultricies porta nam aenean eu dui nullam lectus vulputate,
-                    habitant pretium urna hac penatibus platea semper ad.
+                    El proyecto educativo DIVINO NIÑO CORPAIDOS es una propuesta humanística, integral y emancipadora que fomenta y consolida el desarrollo humano y la construcción de las bases de la personalidad de sus educandos, a través de un modelo educativo que integra los niveles de inicial, primaria y secundaria de menores y articula con las responsabilidades educativas de la familia.
+                </p>
+                <p className="py-4 text-gray-500 text-md dark:text-gray-300">
+                    El Colegio Divino Niño Corpaidos desarrolla una pedagogía multidisciplinaria y el cultivo de los más altos valores morales que se reflejan en su extraordinario nivel de equidad y calidad educativa.
                 </p>
             </div>
-            <div className="w-full px-4 py-4 mt-6 bg-white rounded-lg shadow-lg sm:w-1/2 md:w-1/2 lg:w-1/4 sm:mt-16 md:mt-20 lg:mt-24 dark:bg-gray-800">
+            <div className="w-full flex-1 px-4 py-4 mt-6 bg-white rounded-lg shadow-lg sm:w-1/2 md:w-1/2 lg:w-1/4 dark:bg-gray-800">
                 <div className="flex-shrink-0">
                     <div className="flex items-center justify-center w-12 h-12 mx-auto text-white bg-indigo-500 rounded-md">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
@@ -29,35 +28,14 @@ const Mision: React.FC = () => (
                         </svg>
                     </div>
                 </div>
-                <h3 className="py-4 text-2xl font-semibold text-gray-700 sm:text-xl dark:text-white">
+                <h3 className="py-4 text-2xl font-semibold text-gray-700 dark:text-white">
                     Visión
                 </h3>
                 <p className="py-4 text-gray-500 text-md dark:text-gray-300">
-                    Nuestra visión es Lorem ipsum dolor sit amet consectetur adipiscing elit lectus, dictumst litora dui per hendrerit
-                    class sociis. Auctor non senectus orci fusce duis congue sem tellus scelerisque, blandit potenti quisque habitant
-                    faucibus lectus vel litora sapien accumsan, neque posuere nunc metus pharetra varius dui nisi. Morbi et commodo
-                    egestas donec fames velit massa molestie fringilla, ultricies porta nam aenean eu dui nullam lectus vulputate,
-                    habitant pretium urna hac penatibus platea semper ad.
+                    El proyecto educativo Divino Niño CORPAIDOS se ha posicionado como la propuesta educativa que ha alcanzado altas cotas de desarrollo humano en los infantes, niños y adolescentes que educa, convirtiéndose en uno de los modelos más exitosos, proyectando su estilo pedagógico innovador a toda la región. Sus alumnos y alumnas superan ampliamente los estándares internacionales en logros educativos tanto en los aprestamientos en lecto-escritura, como el dominio de las capacidades básicas que plantea la comunidad educativa internacional por lo que sus egresados gozan de un reconocido nivel que les asegura el acceso a cualquier centro educativo del nivel superior del país.
                 </p>
-            </div>
-            <div className="w-full px-4 py-4 mt-6 bg-white rounded-lg shadow-lg sm:w-1/2 md:w-1/2 lg:w-1/4 dark:bg-gray-800">
-                <div className="flex-shrink-0">
-                    <div className="flex items-center justify-center w-12 h-12 mx-auto text-white bg-indigo-500 rounded-md">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
-                        </svg>
-
-                    </div>
-                </div>
-                <h3 className="py-4 text-2xl font-semibold text-gray-700 sm:text-xl dark:text-white">
-                    Porque nosotros
-                </h3>
                 <p className="py-4 text-gray-500 text-md dark:text-gray-300">
-                    Eligenos por Lorem ipsum dolor sit amet consectetur adipiscing elit lectus, dictumst litora dui per hendrerit
-                    class sociis. Auctor non senectus orci fusce duis congue sem tellus scelerisque, blandit potenti quisque habitant
-                    faucibus lectus vel litora sapien accumsan, neque posuere nunc metus pharetra varius dui nisi. Morbi et commodo
-                    egestas donec fames velit massa molestie fringilla, ultricies porta nam aenean eu dui nullam lectus vulputate,
-                    habitant pretium urna hac penatibus platea semper ad.
+                    Poseen además una exquisita sensibilidad por la axiología humanística que imparte CORPAIDOS, así como un sólido estilo de auto aprendizaje, afianzada por una adecuada estabilidad emocional.
                 </p>
             </div>
         </div>
