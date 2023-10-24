@@ -1,0 +1,27 @@
+@import url('https://fonts.cdnfonts.com/css/cooper-black');
+
+.colegio{
+    font-family: 'Cooper Black', sans-serif;
+    font-size: 40px;
+    text-shadow:
+        1px 1px 0 black,
+        -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
+}
+
+.outline-title {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: rgba(148,26,40,255);
+    /*color: rgb(255, 165, 28, 48);*/
+    text-shadow:
+        1px 1px 0 white,
+        -1px -1px 0 white,
+        1px -1px 0 white,
+        -1px 1px 0 white,
+        1px 1px 0 white;
+    font-size: 50px;
+    font-family: 'Cooper Black', sans-serif;
+}
