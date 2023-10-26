@@ -1,10 +1,10 @@
 import MisionVision from "../../components/MisionVision/MisionVision";
-import Presentacion from "../../components/Presentacion/Presentacion";
+import Inicio from "../../components/Inicio/Inicio";
 
 const Home: React.FC = () => {
     return(
         <>
-            <Presentacion/>
+            <Inicio/>
             <MisionVision/>
         </>
     );

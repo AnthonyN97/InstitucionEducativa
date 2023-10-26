@@ -25,8 +25,8 @@ const rows = [
 
 const AñoLectivo: React.FC = () => {
     return (
-        <div className="mx-auto w-full sm:w-auto py-4 px-4 justify-center text-center items-center">
-            <h1  className='place-content-center uppercase font-mono'>Calendarización del año lectivo:</h1>
+        <div className="container mx-3/5 mx-auto w-full sm:w-4/5 py-4 px-4 justify-center text-center items-center">
+            <h1  className='place-content-center uppercase'>Calendarización del año lectivo:</h1>
             <TableContainer component={Paper}>
                 <Table sx={{ minWidth: 650 }} aria-label="simple table">
                     <TableHead>
