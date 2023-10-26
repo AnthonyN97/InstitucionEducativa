@@ -1,4 +1,4 @@
-const Mision: React.FC = () => (
+const MisionVision: React.FC = () => (
     <>
         <div className="flex-wrap px-2 justify-center gap-2 text-center sm:flex">
             <div className="w-full flex-1 px-4 py-4 mt-6 bg-white rounded-lg shadow-lg sm:w-1/2 md:w-1/2 lg:w-1/4 dark:bg-gray-800">
@@ -43,4 +43,4 @@ const Mision: React.FC = () => (
     </>
 );
 
-export default Mision;
+export default MisionVision;
