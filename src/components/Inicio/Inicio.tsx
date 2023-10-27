@@ -8,7 +8,7 @@ const Inicio: React.FC = () => {
             style={{ backgroundImage: `url(${fondo})` }}
         >
             <div className="absolute inset-0 bg-black opacity-50"></div>
-            <div className="flex flex-col justify-end items-end h-full relative">
+            <div className="flex flex-col justify-end items-end h-full relative hover:backdrop-blur-sm">
                 <h1 className="text-white uppercase text-4xl md:text-6xl font-semibold p-4 md:p-8">
                     <Corpaidos/>
                 </h1>
