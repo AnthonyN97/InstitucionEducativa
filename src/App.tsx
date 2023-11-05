@@ -32,7 +32,7 @@ function App() {
   return (
     <>
         <Header />
-        <RouterProvider router={router}></RouterProvider>
+        <RouterProvider router={router} />
         <Footer />
     </>
   );
