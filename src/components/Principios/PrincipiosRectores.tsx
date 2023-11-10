@@ -1,4 +1,4 @@
-import Test from "./test";
+import Principio from "./Principio";
 import desarrolloHumano from "../../assets/desarrolloHumano.jpg";
 import etica from "../../assets/etica.jpg";
 import intercultural from "../../assets/intercultural.jpg";
@@ -52,18 +52,7 @@ const PrincipiosRectores: React.FC = () => {
            <p className="pt-4 text-center text-2xl font-semibold mb-4 sm:pt-6">Principios Rectores:</p>
             <div className="grid justify-center rounded-lg shadow-sm dark:border-gray-700 md:w-full md:grid-cols-2">
                 {datosEducacion.map((item, index) => (
-                    <Test Principios={item}/>
-                    /*<div className="content p-2">
-                        <figure
-                        key={index}
-                        className="flex flex-col h-full items-center justify-center p-3 text-center bg-white border-b border-gray-200 rounded-lg md:rounded-tl-lg md:border-r dark:bg-gray-800 dark:border-gray-700"
-                    >
-                        <blockquote className="max-w-2xl mx-auto mb-4 text-gray-500 dark:text-gray-400">
-                            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">{item.nombre}</h3>
-                            <p className="my-4">{item.descripcion}</p>
-                        </blockquote>
-                    </figure>
-                    </div>*/
+                    <Principio key={index} Principios={item}/>
                 ))}
             </div>
         </div>

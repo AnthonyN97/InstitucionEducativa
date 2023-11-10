@@ -4,7 +4,7 @@ interface Principios {
     imagen: string
 }
 
-const Test: React.FC<{ Principios: Principios }> = ({ Principios }) => {
+const Principio: React.FC<{ Principios: Principios }> = ({ Principios }) => {
     return (
         <div className="flex flex-col m-5 rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 md:flex-row">
             {Principios.imagen !== "/" ? (
@@ -22,4 +22,4 @@ const Test: React.FC<{ Principios: Principios }> = ({ Principios }) => {
     );
 }
 
-export default Test;
+export default Principio;
