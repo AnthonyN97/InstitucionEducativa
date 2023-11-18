@@ -1,6 +1,7 @@
 import MisionVision from "../../components/MisionVision/MisionVision";
 import Inicio from "../../components/Inicio/Inicio";
 import PrincipiosRectores from "../../components/Principios/PrincipiosRectores";
+import Actividades from "../../components/Actividades/Actividades";
 
 const Home: React.FC = () => {
     return(
@@ -8,6 +9,7 @@ const Home: React.FC = () => {
             <Inicio/>
             <MisionVision/>
             <PrincipiosRectores/>
+            <Actividades/>
         </>
     );
 };

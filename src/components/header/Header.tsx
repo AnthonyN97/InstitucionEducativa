@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { Sidebar } from 'primereact/sidebar';
 import { Button } from 'primereact/button';
-import 'primeicons/primeicons.css';
 import logo from '../../assets/logo.jpg';
 
 const Header: React.FC = () => {
