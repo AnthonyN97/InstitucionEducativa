@@ -6,6 +6,7 @@ import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
+import TimeLineCronograma from '../../components/TimeLineCronograma/TimeLineCronograma';
 
 function createData(
     trimestre: string,
@@ -25,6 +26,7 @@ const rows = [
 
 const AñoLectivo: React.FC = () => {
     return (
+        <>
         <div className="container mx-3/5 mx-auto w-full sm:w-4/5 py-4 px-4 justify-center text-center items-center">
             <h1  className='place-content-center uppercase'>Calendarización del año lectivo:</h1>
             <TableContainer component={Paper}>
@@ -57,6 +59,8 @@ const AñoLectivo: React.FC = () => {
                 </Table>
             </TableContainer>
         </div>
+        <TimeLineCronograma/>
+        </>
     );
 }
 export default AñoLectivo;

@@ -11,6 +11,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import AboutUs from './pages/AboutUs/AboutUs';
+import Contactanos from './pages/Contactanos/Contactanos';
 
 const router = createBrowserRouter([
   {
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
   {
     path: '/SobreNosotros',
     element: <AboutUs/>,
+  },
+  {
+    path: '/Contactanos',
+    element: <Contactanos/>,
   }
 ])
 

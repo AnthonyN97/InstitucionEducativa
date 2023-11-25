@@ -8,7 +8,8 @@ const Header: React.FC = () => {
     const links = [
         { name: 'Inicio', href: '/' },
         { name: 'Sobre Nosotros', href: '/sobreNosotros' },
-        { name: 'Cronograma', href: '/AñoLectivo' },
+        { name: 'Calendario', href: '/AñoLectivo' },
+        { name: 'Contactanos', href: '/Contactanos' },
     ];
 
     return (
