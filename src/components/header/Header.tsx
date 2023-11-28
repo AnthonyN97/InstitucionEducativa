@@ -36,8 +36,8 @@ const Header: React.FC = () => {
                     </div>
                 </div>
             </nav>
-            <Sidebar visible={visibleRight} position="right" onHide={() => setVisibleRight(false)}>
-                <ul className="font-medium text-sm flex flex-col p-2 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 dark:border-gray-700">
+            <Sidebar visible={visibleRight} className="dark:bg-gray-700" position="right" onHide={() => setVisibleRight(false)}>
+                <ul className="font-medium text-sm flex flex-col p-2 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 dark:border-gray-700 dark:bg-blue-dark">
                     {links.map((link, index) => (
                         <li key={index}>
                             <a href={link.href} className="block py-2 pl-3 pr-4 text-gray-900 rounded dark:text-white">
