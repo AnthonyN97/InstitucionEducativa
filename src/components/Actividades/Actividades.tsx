@@ -9,7 +9,7 @@ const Actividades: React.FC = () => {
     const responsiveOptions: GalleriaResponsiveOptions[] = [
         {
             breakpoint: '1024px',
-            numVisible: 5
+            numVisible: 4
         },
         {
             breakpoint: '991px',
@@ -40,8 +40,8 @@ const Actividades: React.FC = () => {
     const caption = (item: any) => {
         return (
             <React.Fragment>
-                <div className="text-xl mb-2 font-bold">{item.title}</div>
-                <p className="text-white">{item.alt}</p>
+                <div className="text-lg mb-2 font-bold">{item.title}</div>
+                <p className="text-base text-white">{item.alt}</p>
             </React.Fragment>
         );
     }
@@ -49,8 +49,8 @@ const Actividades: React.FC = () => {
     return (
         <>
             <div className="card flex justify-center items-center">
-                <Galleria value={images} responsiveOptions={responsiveOptions} numVisible={5}
-                    item={itemTemplate} thumbnail={thumbnailTemplate} caption={caption} style={{ maxWidth: '640px' }} circular autoPlay transitionInterval={3000}/>
+                <Galleria className="p-5 lg:w-5/6" value={images} responsiveOptions={responsiveOptions} numVisible={5}
+                    item={itemTemplate} thumbnail={thumbnailTemplate} caption={caption} circular autoPlay transitionInterval={3000}/>
             </div>
         </>
     )
