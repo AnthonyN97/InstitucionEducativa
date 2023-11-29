@@ -1,7 +1,7 @@
 import CompHover from "./CompHover";
 import vision from "../../assets/visionsinfondo.png";
 import mision from "../../assets/misionsinfondo.png";
-import CompHover2 from "./CompHover copy";
+import CompHover2 from "./CompHover2";
 
 const images = [
     {
