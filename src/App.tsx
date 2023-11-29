@@ -12,6 +12,7 @@ import {
 } from "react-router-dom";
 import AboutUs from './pages/AboutUs/AboutUs';
 import Contactanos from './pages/Contactanos/Contactanos';
+import Normas from './pages/Normas/Normas';
 
 const router = createBrowserRouter([
   {
@@ -19,8 +20,12 @@ const router = createBrowserRouter([
     element: <Home />,
   },
   {
-    path: '/AñoLectivo',
+    path: '/Test',
     element: <AñoLectivo />,
+  },
+  {
+    path: '/Normas',
+    element: <Normas />,
   }
   ,
   {

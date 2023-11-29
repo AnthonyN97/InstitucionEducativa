@@ -1,10 +1,10 @@
 import Principio from "./Principio";
-import desarrolloHumano from "../../assets/desarrolloHumano.jpg";
-import etica from "../../assets/etica.jpg";
-import intercultural from "../../assets/intercultural.jpg";
-import construccionAprendizajes from "../../assets/construccionAprendizajes.jpg";
-import pertinenciaVocacional from "../../assets/pertinenciaVocacional.jpg";
-import propedeutica from "../../assets/propedeutica.jpg";
+import desarrolloHumano from "../../assets/principios/desarrolloHumano.jpg";
+import etica from "../../assets/principios/etica.jpg";
+import intercultural from "../../assets/principios/intercultural.jpg";
+import construccionAprendizajes from "../../assets/principios/construccionAprendizajes.jpg";
+import pertinenciaVocacional from "../../assets/principios/pertinenciaVocacional.jpg";
+import propedeutica from "../../assets/principios/propedeutica.jpg";
 
 interface Principios {
     nombre: string,

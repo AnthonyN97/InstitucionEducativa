@@ -1,7 +1,7 @@
 import React from 'react';
 import { Timeline } from 'primereact/timeline';
 import { Card } from 'primereact/card';
-import { Button } from 'primereact/button';
+import Niño from '../../assets/divinoNino.png'
 import './TimelineDemo.css';
 
 interface TimelineEvent {
@@ -10,15 +10,16 @@ interface TimelineEvent {
     icon?: string;
     color?: string;
     image?: string;
+    data?: string;
 }
 
 const TimeLineCronograma: React.FC = () => {
 
     const events: TimelineEvent[] = [
-        { status: 'Ordered', date: '15/10/2020 10:30', icon: 'pi pi-shopping-cart', color: '#9C27B0' },
-        { status: 'Processing', date: '15/10/2020 14:00', icon: 'pi pi-cog', color: '#673AB7' },
-        { status: 'Shipped', date: '15/10/2020 16:15', icon: 'pi pi-shopping-cart', color: '#FF9800' },
-        { status: 'Delivered', date: '16/10/2020 10:00', icon: 'pi pi-check', color: '#607D8B' }
+        { status: 'Inauguración del escolar', date: '09 de marzo', icon: 'pi pi-calendar', color: '#9C27B0', data:'Bienvenida de los escolares', image: Niño },
+        { status: 'Bienvenida a los estudiantes de secundaria', date: '24 de marzo', icon: 'pi pi-calendar', color: '#673AB7' },
+        { status: 'Bienvenida a los estudiantes de primaria – Show de títeres', date: '15/10/2020 16:15', icon: 'pi pi-calendar', color: '#FF9800' },
+        { status: 'Dia de la concientización del autismo', date: '01 de abril', icon: 'pi pi-calendar', color: '#607D8B' }
     ];
 
     const customizedMarker = (item: TimelineEvent) => {
@@ -32,10 +33,8 @@ const TimeLineCronograma: React.FC = () => {
     const customizedContent = (item: TimelineEvent) => {
         return (
             <Card title={item.status} subTitle={item.date}>
-                {item.image && <img src={`https://primefaces.org/cdn/primereact/images/product/${item.image}`} alt="" width={200} className="shadow-1" />}
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam deserunt
-                    quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque quas!</p>
-                <Button label="Read more" className="p-button-text"></Button>
+                {item.image && <img src={item.image} alt="" width={200} className="shadow-1" />}
+                {item.data && <p>{item.data}</p>}
             </Card>
         );
     };

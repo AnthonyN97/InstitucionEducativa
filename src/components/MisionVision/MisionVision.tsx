@@ -1,6 +1,5 @@
-import CompHover from "./CompHover";
-import vision from "../../assets/visionsinfondo.png";
-import mision from "../../assets/misionsinfondo.png";
+import vision from "../../assets/misionVision/visionsinfondo.png";
+import mision from "../../assets/misionVision/misionsinfondo.png";
 import CompHover2 from "./CompHover2";
 
 const images = [
@@ -18,7 +17,6 @@ const images = [
 
 const MisionVision: React.FC = () => (
     <>
-        <CompHover images={images}></CompHover>
         <CompHover2 images={images}></CompHover2>
     </>
 );

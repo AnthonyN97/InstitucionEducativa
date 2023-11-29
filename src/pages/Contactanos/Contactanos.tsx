@@ -1,6 +1,6 @@
 import WhatsAppB from "../../components/WhatsAppB/WhatsAppB";
-import Telefono from "../../assets/telefono.png";
-import ManoConMapa from "../../assets/manoConMapa.jpg";
+import Telefono from "../../assets/contactanos/telefono.png";
+import ManoConMapa from "../../assets/contactanos/manoConMapa.jpg";
 
 const ubicacionFrontal = "https://www.google.com/maps/embed?pb=!3m2!1ses-419!2spe!4v1700932315791!5m2!1ses-419!2spe!6m8!1m7!1sG7Gx8xMwVrMtPNjYPlumTQ!2m2!1d-16.40734807141846!2d-71.52511473002731!3f326.39956122811805!4f0.6276393148316544!5f0.7481052591083299"
 const ubicacionSatelital = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d239.2091024333902!2d-71.5251522809535!3d-16.40726316294613!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91424afe26cbd12f%3A0xab57aa0dda798fe9!2sColegio%20Divino%20Ni%C3%B1o%20Corpaidos!5e0!3m2!1ses-419!2spe!4v1700932438214!5m2!1ses-419!2spe"
@@ -8,7 +8,7 @@ const ubicacionSatelital = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!
 const Contactanos: React.FC = () => {
     return (
         <div className="p-5">
-            <h1 className="text-3xl font-bold mb-4">
+            <h1 className="text-3xl font-bold mb-4 text-center py-3">
                 Contactanos
             </h1>
             <div className="flex flex-row">
