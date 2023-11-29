@@ -33,11 +33,11 @@ const Seccion: React.FC<SeccionType> = (seccion) => {
 
     return (
         <div className="flex flex-col py-5 lg:flex-row">
-            <div className={`${seccion.sideRight ? 'px-2' : 'order-last'}`}>
+            <div className={`px-2 ${seccion.sideRight ? '' : 'order-last'}`}>
                 <img src={seccion.image} alt={seccion.title} className="object-cover w-full h-full" />
             </div>
 
-            <div className="m-1 p-1 bg-blue-light text-white rounded-lg flex flex-col justify-center">
+            <div className="m-1 p-1 bg-blue-dark text-white rounded-lg flex flex-col justify-center">
                 {/*<text className="text-2xl font-bold mb-4 text-center py-3 ">
                     {seccion.title}
                 </text>

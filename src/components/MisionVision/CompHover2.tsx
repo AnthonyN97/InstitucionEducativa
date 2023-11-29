@@ -20,11 +20,11 @@ const CompHover2: React.FC<CompHoverProps> = ({ images }) => {
         <motion.div className="card sm:basis-1/2" 
         onMouseOver={() => setHoveredImage(index)} 
         onMouseOut={() => setHoveredImage(null)}>
-          <div className="flex justify-center m-5 inline-block align-middle flex-col rounded-lg dark:bg-blue-dark dark:text-white">
+          <div className="flex justify-center m-5 inline-block align-middle flex-col rounded-lg bg-blue-dark text-white">
             <div className="text-center font-bold text-2xl lg:text-4xl">{image.titulo}</div>
             <div
               key={index}
-              className={`flex flex-col m-2 rounded-lg dark:bg-blue-dark bg-corn-light sm:flex-row ${hoveredImage === index ? "hovered" : ""
+              className={`flex flex-col m-2 rounded-lg bg-blue-dark sm:flex-row ${hoveredImage === index ? "hovered" : ""
                 }`}
               onMouseOver={() => setHoveredImage(index)}
               onMouseOut={() => setHoveredImage(null)}
@@ -37,7 +37,7 @@ const CompHover2: React.FC<CompHoverProps> = ({ images }) => {
             </div>
             <motion.h2 layout>
               {(hoveredImage === index || window.innerWidth <= 768)  && (
-                <div className="m-2 p-2 bg-blue-dark shadow-md basis-2/3 rounded-lg text-lg text-justify inline-block align-middle dark:text-white items-center">
+                <div className="m-2 p-2 bg-blue-dark shadow-md basis-2/3 rounded-lg text-lg text-justify inline-block align-middle text-white items-center">
               {image.text}
           </div>
           )}

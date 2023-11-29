@@ -14,7 +14,7 @@ export const PhotoService = {
     const formattedImages = images.map((src, index) => ({
       itemImageSrc: src,
       thumbnailImageSrc: src,
-      title: `Title ${index+1}`,
+      title: `Title ${src}`,
       alt: `Image ${index+1}`
     }));
 
