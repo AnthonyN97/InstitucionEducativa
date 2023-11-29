@@ -48,7 +48,7 @@ const Actividades: React.FC = () => {
 
     return (
         <>
-            <div className="card flex justify-center items-center">
+            <div className="bg-gray-100 card flex justify-center items-center">
                 <Galleria className="p-5 lg:w-5/6" value={images} responsiveOptions={responsiveOptions} numVisible={5}
                     item={itemTemplate} thumbnail={thumbnailTemplate} caption={caption} circular autoPlay transitionInterval={3000}/>
             </div>

@@ -2,7 +2,7 @@ import divinoNino from "../../assets/divinoNino.png";
 
 const AboutUs: React.FC = () => {
     return (
-        <div className="flex flex-col lg:flex-row">
+        <div className="bg-gray-100 flex flex-col lg:flex-row">
             <div className="basis-2/5 content-center p-6 rounded-lg justify-items-center">
                 <img src={divinoNino} alt="Divino Niño" className="object-cover w-full h-full" />
             </div>

@@ -48,7 +48,7 @@ const datosEducacion:Principios[] = [
 
 const PrincipiosRectores: React.FC = () => {
     return (
-        <div className="md:mx-10">
+        <div className="bg-gray-100 md:px-10">
            <p className="pt-4 text-center text-2xl font-semibold mb-4 sm:pt-6">Principios Rectores:</p>
             <div className="grid justify-center rounded-lg shadow-sm dark:border-gray-700 md:w-full md:grid-cols-2">
                 {datosEducacion.map((item, index) => (

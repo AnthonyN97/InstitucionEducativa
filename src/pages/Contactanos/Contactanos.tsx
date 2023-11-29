@@ -7,7 +7,7 @@ const ubicacionSatelital = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!
 
 const Contactanos: React.FC = () => {
     return (
-        <div className="p-5">
+        <div className="p-5 bg-gray-100">
             <h1 className="text-3xl font-bold mb-4 text-center py-3">
                 Contactanos
             </h1>

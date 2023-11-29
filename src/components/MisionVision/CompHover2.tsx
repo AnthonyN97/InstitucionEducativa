@@ -15,7 +15,7 @@ const CompHover2: React.FC<CompHoverProps> = ({ images }) => {
   const [hoveredImage, setHoveredImage] = useState<number | null>(null);
 
   return (
-    <div className="flex flex-col sm:flex-row">
+    <div className="bg-gray-100 flex flex-col sm:flex-row">
       {images.map((image, index) => (
         <motion.div className="card sm:basis-1/2" 
         onMouseOver={() => setHoveredImage(index)} 
