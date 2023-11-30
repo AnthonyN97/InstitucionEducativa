@@ -10,11 +10,11 @@ const link = `https://wa.me/${numeroDeTelefono}?text=${replaceSpacesWithPercent2
 
 const WhatsAppB: React.FC = () => {
   return (
-    <>
+    <div className="py-5">
         <a aria-label="Chat on Whatsapp" href={link}>
           <img alt="Chat on WhatsApp" src={WhatsAppButton} />
         </a>
-    </>
+    </div>
   )
 }
 
