@@ -1,3 +1,5 @@
+import { Image } from 'primereact/image';
+import Fotofrente from "../../assets/contactanos/telefono.png";
 import WhatsAppB from "../../components/WhatsAppB/WhatsAppB";
 import Telefono from "../../assets/contactanos/telefono.png";
 import ManoConMapa from "../../assets/contactanos/manoConMapa.jpg";
@@ -7,7 +9,7 @@ const ubicacionSatelital = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!
 
 const Contactanos: React.FC = () => {
     return (
-        <div className="p-5 bg-gray-100">
+        <div className="p-5 sm:p-10 bg-gray-100">
             <h1 className="text-3xl font-bold mb-4 text-center py-3">
                 Contactanos
             </h1>
@@ -30,10 +32,10 @@ const Contactanos: React.FC = () => {
                 </div>
             </div>
             <div className="text-xl my-4">
-                Tambien puede encontrarnos en la siguiente direccion: Avenida Venezuela 738 Urb. Santa Isabel Cercado 04002 Arequipa, Peru.
+                Tambien puede encontrarnos en la siguiente direccion: Avenida Venezuela 738 Urb. Santa Isabel Cercado 04002 Arequipa, Perú.
             </div>
             <div className="flex flex-col sm:flex-row justify-center items-center space-x-4">
-                <iframe title="Vista Frontal" src={ubicacionFrontal} className="rounded-lg w-full md:w-1/2 h-96 md:h-96" loading="lazy"></iframe>
+                <Image src={Fotofrente} alt="Image" width="250" />
                 <iframe title="Vista Satelital" src={ubicacionSatelital} className="rounded-lg w-full md:w-1/2 h-96 md:h-96" loading="lazy"></iframe>
             </div>
         </div>

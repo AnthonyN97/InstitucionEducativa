@@ -13,6 +13,8 @@ import {
 import AboutUs from './pages/AboutUs/AboutUs';
 import Contactanos from './pages/Contactanos/Contactanos';
 import Normas from './pages/Normas/Normas';
+import Niveles from './pages/Niveles/Niveles';
+import AreaDeportes from './pages/AreaDeportes/AreaDeportes';
 
 const router = createBrowserRouter([
   {
@@ -22,6 +24,10 @@ const router = createBrowserRouter([
   {
     path: '/Test',
     element: <AñoLectivo />,
+  },
+  {
+    path: '/Niveles',
+    element: <Niveles />,
   },
   {
     path: '/Normas',
@@ -35,7 +41,11 @@ const router = createBrowserRouter([
   {
     path: '/Contactanos',
     element: <Contactanos/>,
-  }
+  },
+  {
+    path: '/AcademiaDeportiva',
+    element: <AreaDeportes />,
+  },
 ])
 
 function App() {

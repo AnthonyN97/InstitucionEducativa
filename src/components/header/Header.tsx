@@ -7,9 +7,11 @@ const Header: React.FC = () => {
     const [visibleRight, setVisibleRight] = useState(false);
     const links = [
         { name: 'Inicio', href: '/' },
+        { name: 'Niveles' , href: '/Niveles'},
         { name: 'Sobre Nosotros', href: '/sobreNosotros' },
         { name: 'Normas', href: '/Normas' },
         { name: 'Contactanos', href: '/Contactanos' },
+        { name: 'Área Deportes' , href: '/AcademiaDeportiva' }
     ];
 
     return (
@@ -17,7 +19,7 @@ const Header: React.FC = () => {
             <nav className="bg-blue-dark">
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                     <a href="/" className="flex items-center">
-                        <img src={logo} className="h-10 mr-3" alt="Logo" />
+                        <img src={logo} className="h-12 mr-3" alt="Logo" />
                         <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">Corpaidos</span>
                     </a>
 

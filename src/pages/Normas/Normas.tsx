@@ -55,7 +55,7 @@ const Normas: React.FC = () => {
     return (
         <div className="bg-gray-100 p-5">
             <h1 className="text-3xl font-bold mb-4 text-center py-3">
-                Normas
+                Normas de Convivencia
             </h1>
             <div className="text-2xl text-justify">
                 Las normas están destinadas a la formación de los alumnos como personas capaces de poder vivir con los demás,
