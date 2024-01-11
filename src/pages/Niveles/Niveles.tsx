@@ -15,7 +15,7 @@ const Niveles: React.FC = () => {
         {
             titulo: 'Secundaria',
             texto: 'Este es mi texto.',
-            imagen: 'https://lh3.googleusercontent.com/u/0/drive-viewer/AEYmBYRDFZfC34HIIdtJyMRvys1qdhkNM9AC_FphHAcCbKP0R69O0mzUcFSdZ-Iw-z8PFpQaMAYBtqgjTGOsyyksyQxICqO7Pg=w1600-h738',
+            imagen: 'https://lh3.googleusercontent.com/pw/ABLVV87Ypr6GJZ8TCgkJwtF2QpyjEx52WQ-cScSxI83DyPELrD5t9b2vlWhjY1sbIbEt1Rlw1A8j5gNtgeBLqJD4SvvDT_xUfEwQFhCll6HBe2Vm950gBn_8JArAM594C6ivhMuMw0HoM4auXlT_hDFwyEwLmGMR8Y_NKip7igzs2ceSOfqCrVaiUOgDray2fLNcZAJrBy9Op6b_z6GbyWQxDoHMLBdWixNfi1YTAw45FK4Cbq0USGPrSa0CfmhobfRDHVo_0qvfRhwuhLGXN-GkEkuhfqncsLVDUBoee6gCIUeX6AbZ5ArCGCGq5PztN144kNPym6f3N7vItcJg9uWsO6etGBSleETkfofztG3Gw9jehc930MEdz-kQ8Rib5IubLCYJ2bFVEtivLeL3S2UiOcsaEr7lyuLZ20EReZhEdjd2He_-IXscyaJideWtrEZE6kSALNCN19rFHPJaDy60b1eQU52qrW_QBHoDzBhsbJWaErd1U5wNh4s7cDBvdj0xAUpNOOSqrU32bTQeE6uqvr9Wmrtn3HEoNZPNACMUNz9699nD4ps5ISMbVymo8k-Zh-mIh_s2zAp4DQk-vg7gYSO3VQmbwkXKJZrCVQUsjMuR9o0C5xIBetFuoPxDOkQozB-aMiTwlVpGkncF8EWyMU4Cbibl0arGKxiMU_cFMfDfBrr7273e9b5CyfaZ8R0eFsa5C5U2fl9ICjX4uLYHy86NoRc-VdSa1HYJiuu2h-CYF4tRn-P_b-Jw0hfw9STX9KZm9SRC4QNDlXt1nLbL9vnS7jA9ZqOVT4PKWLCq1XEhJTNWN2sCjguL7526Js5__c8VZ8LAH4XzMtkgtcDZ01_MxvLdVnAcEObm2o7_M268ryM6ai57vVw5AJBubTlWrL1_2BhW6O-XWboA2N5JCf6F0qwVIYhG6YgDIvMS=w978-h704-s-no-gm?authuser=0',
         },
     ];
 
@@ -28,14 +28,26 @@ const Niveles: React.FC = () => {
                 Texto Preventivo
             </div>
             {niveles.map((nivel, index) => (
-                <Nivel 
+                <Nivel
                     key={index}
-                    titulo={nivel.titulo} 
-                    texto={nivel.texto} 
-                    imagen={nivel.imagen} 
+                    titulo={nivel.titulo}
+                    texto={nivel.texto}
+                    imagen={nivel.imagen}
                 />
             ))}
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/HVn7iDlBx7M?si=dmSRV7VuOjaEw3WL" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+            <div className="flex items-center justify-center h-screen p-3">
+                <iframe width="90%" height="80%" src="https://www.youtube.com/embed/R9Qy-5s-eU8?si=IFV1G34tQkkFl2F1" title="Festival de talentos" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+
+            </div>
+            <iframe
+                width="560"
+                height="315"
+                src="https://drive.google.com/uc?export=view&id=1NKuPiZlDAbtVFoP_8s6WZZmoEfi0R3nU"
+                title="Video de Google Drive"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            />
+            <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FColegioCorpaidos%2Fvideos%2F1035483977659511%2F&show_text=true&width=560&t=0" width="560" height="429" scrolling="no" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+
         </div>
     );
 };

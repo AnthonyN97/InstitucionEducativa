@@ -10,7 +10,7 @@ const Nivel: React.FC<SeccionType> = ({ titulo, texto, imagen }) => {
     const [desplegado, setDesplegado] = useState(false);
 
     return (
-        <div onClick={() => setDesplegado(!desplegado)} className="m-4 p-4 bg-blue dark:bg-blue-dark dark:text-white rounded-2xl hover:scale-105 transform transition-transform duration-500">
+        <div onClick={() => setDesplegado(!desplegado)} className="m-4 p-4 bg-blue-dark text-white rounded-2xl hover:scale-105 transform transition-transform duration-500">
             <h1 className="text-center text-2xl font-bold mb-4">
                 <i className={`pi ${desplegado ? 'pi-angle-up' : 'pi-angle-down'} hover:scale-110`} /> CLICK - {titulo}
             </h1>
