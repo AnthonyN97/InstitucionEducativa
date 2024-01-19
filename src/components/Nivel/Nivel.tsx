@@ -1,12 +1,16 @@
 import React, { useState } from 'react';
+import Niveles from "../../assets/niveles/niveles.jpg";
 
 interface SeccionType {
     titulo: string,
-    texto: string,
-    imagen: string,
+    parrafo1: string,
+    parrafo2: string,
+    frase: string,
+    imagen1: string,
+    imagen2: string,
 }
 
-const Nivel: React.FC<SeccionType> = ({ titulo, texto, imagen }) => {
+const Nivel: React.FC<SeccionType> = ({ titulo, parrafo1, parrafo2, frase, imagen1, imagen2 }) => {
     const [desplegado, setDesplegado] = useState(false);
 
     return (
@@ -16,13 +20,20 @@ const Nivel: React.FC<SeccionType> = ({ titulo, texto, imagen }) => {
             </h1>
             {desplegado && (
                 <div className="flex flex-col sm:flex-row bg-blue-DEFAULT p-4 rounded-lg">
-                    <div className="h-full sm:w-1/2 text-xl p-2">
-                        {texto}
+                    <div className="h-full sm:w-1/2 p-2 text-justify">
+                        <text className='lg:text-xl'>{parrafo1}</text> 
+                        <br />
+                        <text className='lg:text-xl'>{parrafo2}</text> 
+                        <br />
+                        <div className='text-right pt-3'>
+                            {/*<img src={Niveles} alt="Salvador" className="object-contain w-full h-64 py-2" />*/}    
+                            <text className='text-xl lg:text-2xl font-bold'>{frase}</text>
+                        </div>
+                        
                     </div>
-                    <div className="h-full sm:w-1/2 p-2">
-                        <img src={imagen} alt={titulo} className="object-contain w-full h-64" />
-                        <img src={imagen} alt={titulo} className="object-cover w-full h-64" />
-                        <img src={imagen} alt={titulo} className="object-contain w-full h-full" />
+                    <div className="h-full sm:w-1/2 lg:p-2 grid grid-rows-2">
+                        <img src={imagen1} alt={titulo} className="object-contain w-full h-64 py-2" />
+                        <img src={imagen2} alt={titulo} className="object-contain w-full h-64 py-2" />
                     </div>
                 </div>
     )
