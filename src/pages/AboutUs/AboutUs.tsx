@@ -1,5 +1,7 @@
 import divinoNino from "../../assets/divinoNino.png";
-import niñosMundo from "../../assets/sobreNosotros2.png";
+import niñosMundo from "../../assets/sobreNosotros2.webp";
+import brochure1 from "../../assets/sobreNosotrosBrochure.webp";
+import brochure2 from "../../assets/sobreNosotrosBrochure2.webp";
 
 const AboutUs: React.FC = () => {
     return (
@@ -62,6 +64,25 @@ const AboutUs: React.FC = () => {
                 </div>
                 <div className="basis-2/5 p-2 rounded-lg h-screen flex justify-center">
                     <img src={niñosMundo} alt="Nuestro futuro" className="items-center object-cover lg:w-4/5 lg:h-6/7" />
+                </div>
+                <div className="flex flex-col sm:flex-row bg-blue-DEFAULT p-4 rounded-lg">
+                    <div className="h-full sm:w-1/2 p-2 text-justify">
+                        <text className="lg:text-xl font-bold">
+                            Descarga Nuestro Folleto Oficial
+                        </text>
+                        <br />
+                        <text className='lg:text-xl'>
+                            ¡Explora todo lo que nuestra academia tiene para ofrecer! Descarga nuestro folleto oficial para obtener información detallada sobre horarios, precios, niveles y descubre nuestro enfoque único de las 4A. Este folleto es tu guía completa para conocer todo lo que necesitas para empezar tu viaje de aprendizaje con nosotros.
+                        </text>
+                        <br />
+                        <a href='./CORPAIDOS.pdf' download rel="noopener noreferrer" className="p-button font-bold">
+                            Descarga Aquí<i className="pl-2 pi pi-download"></i>
+                        </a>
+                    </div>
+                    <div className="h-full sm:w-1/2 lg:p-2 grid grid-cols-2 justify-items-center">
+                        <img src={brochure1} alt={"Brochure"} className="object-contain max-h-80 py-2" />
+                        <img src={brochure2} alt={"Brochure"} className="object-contain max-h-80 py-2" />
+                    </div>
                 </div>
             </div>
         </>

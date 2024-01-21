@@ -8,7 +8,7 @@ function importAll(r) {
   export const PhotoService = {
     getImages: function() {
       // Esto importará todas las imágenes en formato .jpg de la carpeta 'actividades'
-      const images = importAll(require.context('../../assets/AreaDeportes', false, /\.(png|jpe?g|svg)$/));
+      const images = importAll(require.context('../../assets/AreaDeportes', false, /\.(png|jpe?g|svg|jpg)$/));
       
       // Esto convertirá la lista de imágenes en el formato que espera tu componente
       const formattedImages = images.map((src, index) => {

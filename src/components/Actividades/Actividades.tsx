@@ -102,7 +102,7 @@ const Actividades: React.FC = () => {
             </h1>
             <div className="bg-gray-100 card flex justify-center items-center">
                 <Galleria className="p-5 lg:w-5/6" value={images} responsiveOptions={responsiveOptions} numVisible={4}
-                    item={itemTemplate} thumbnail={thumbnailTemplate} caption={caption} style={{ maxWidth: '75%' }} circular autoPlay 
+                    item={itemTemplate} thumbnail={thumbnailTemplate} caption={caption} style={{ maxWidth: '100%' }} circular autoPlay 
                     showItemNavigators transitionInterval={10000} />
             </div>
             <div className="bg-gray-100 card flex justify-center items-center">

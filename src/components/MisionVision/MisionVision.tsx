@@ -1,5 +1,5 @@
-import vision from "../../assets/misionVision/visionsinfondo.png";
-import mision from "../../assets/misionVision/misionsinfondo.png";
+import vision from "../../assets/misionVision/visionsinfondo.webp";
+import mision from "../../assets/misionVision/misionsinfondo.webp";
 import CompHover2 from "./CompHover2";
 
 const images = [

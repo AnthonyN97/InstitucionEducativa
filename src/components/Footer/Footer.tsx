@@ -58,7 +58,7 @@ const Footer: React.FC = () => {
                         </a>*/ }
                     </div>
                     <p className="mt-8 text-base leading-6 text-center text-gray-400">
-                        Servicios educatibos generales Divino Niño CORPAIDOS SRL
+                        Servicios educativos generales Divino Niño CORPAIDOS SRL
                     </p>
                 </div>
             </section>

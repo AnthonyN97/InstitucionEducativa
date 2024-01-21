@@ -26,7 +26,7 @@ const Nivel: React.FC<SeccionType> = ({ titulo, parrafo1, parrafo2, frase, image
                         <text className='lg:text-xl'>{parrafo2}</text> 
                         <br />
                         <div className='text-right pt-3'>
-                            {/*<img src={Niveles} alt="Salvador" className="object-contain w-full h-64 py-2" />*/}    
+                            {(titulo==='Inicial'?<img src={Niveles} alt="Salvador" className="object-contain w-full h-64 py-2" /> : <></>)}   
                             <text className='text-xl lg:text-2xl font-bold'>{frase}</text>
                         </div>
                         

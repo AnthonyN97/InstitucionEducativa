@@ -1,9 +1,11 @@
 import { Galleria, GalleriaResponsiveOptions } from "primereact/galleria";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import { PhotoService } from "../../pages/AreaDeportes/PhotoService";
+import { Button } from "primereact/button";
 
 const AreaDeportes: React.FC = () => {
     const [images, setImages] = useState([])
+    const galleria = useRef<Galleria | null>(null);
     const beneficios = [
         'Social',
         'Emocional',
@@ -74,8 +76,16 @@ const AreaDeportes: React.FC = () => {
             </div>
             <div className="bg-gray-100 card flex justify-center items-center">
                 <Galleria className="p-5 lg:w-5/6" value={images} responsiveOptions={responsiveOptions} numVisible={4}
-                    item={itemTemplate} thumbnail={thumbnailTemplate} style={{ maxWidth: '75%', maxHeight: '80%' }} circular autoPlay
+                    item={itemTemplate} thumbnail={thumbnailTemplate} style={{ maxWidth: '100%', maxHeight: '80%' }} circular autoPlay
                     showItemNavigators transitionInterval={10000} />
+            </div>
+            <div className="bg-gray-100 card flex justify-center items-center">
+                <Galleria className="p-5 lg:w-5/6" ref={galleria} value={images} responsiveOptions={responsiveOptions} numVisible={4}
+                    item={itemTemplate} thumbnail={thumbnailTemplate} circular autoPlay 
+                    fullScreen showItemNavigators transitionInterval={10000} />
+            </div>
+            <div className="bg-gray-100 card flex justify-center items-center py-4">
+                <Button label="Ver Fotos Completas" icon="pi pi-external-link" onClick={() => galleria.current?.show()} />
             </div>
         </div>
     );
