@@ -19,7 +19,7 @@ const Niveles: React.FC = () => {
         {
             titulo: 'Primaria',
             parrafo1: 'En CORPAIDOS el nivel primario fomenta el desarrollo de competencias específicas que le permitirán al niño (niña) un armonioso desarrollo personal, cognitivo, psicológico y psicomotor.',
-            parrafo2: 'Al culminar la primaria el alumno corpaidino, el alumno mostrará altos estándares que faciliten el aprendizaje de: la expresión y comprensión oral, el desarrollo del lenguaje, la escritura, la lectura, el cálculo matemático, el razonamiento lógico, la competencia digitales, el deporte, las artes y el humanismo para crecer y trascender.',
+            parrafo2: 'Al culminar la primaria el alumno corpaidino mostrará altos estándares que faciliten el aprendizaje de: la expresión y comprensión oral, el desarrollo del lenguaje, la escritura, la lectura, el cálculo matemático, el razonamiento lógico, la competencia digitales, el deporte, las artes y el humanismo para crecer y trascender.',
             frase: '¡En CORPAIDOS en el nivel primario desarrollamos una polidocencia formativa!!!',
             imagen1: NivelPrimaria1,
             imagen2: NivelPrimaria2,

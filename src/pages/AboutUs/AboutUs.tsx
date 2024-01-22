@@ -47,13 +47,13 @@ const AboutUs: React.FC = () => {
                             <br />
                             La palabra Paidos proviene del vocablo griego que significa niño. Eran los niños que eran educados en la Pahideia, en la antigua Grecia, cuna de la civilización actual.
                             <br />
-                            La institución educativa CORPAIDOS tiene como patrono al Divino Niño, por lo que en el año 2008 decidió incorporar el nombre del patrono al nombre del colegio, llamándose desde entonces “ Divino Niño Corpaidos” y cuyo aniversario es el 28 de agosto.
+                            La institución educativa CORPAIDOS tiene como patrono al Divino Niño, por lo que en el año 2007 decidió incorporar el nombre del patrono al nombre del colegio, llamándose desde entonces “ Divino Niño Corpaidos” y cuyo aniversario es el 28 de agosto.
                             <br />
-                            Su nominación y logotipo reflejan su vocación humanística y el reconocimiento a la virtuosidad humana en la creación de cultura y ciencia, estrechamente unidas a la fe católica, representada por el Divino niño. Los perfiles de salida en el nivel inicial, primaria y secundaria apuntan a la formación ciudadana plena y comprometida con el desarrollo de la región y del país.
+                            Su nominación y logotipo reflejan su vocación humanística y el reconocimiento a la virtuosidad humana en la creación de cultura y ciencia, estrechamente unidas a la fe católica, representada por el Divino Niño. Los perfiles de salida en el nivel inicial, primaria y secundaria apuntan a la formación ciudadana plena y comprometida con el desarrollo de la región y del país.
                             <br />
                             En el año 2011 egresa la primera promoción, conformada por 13 alumnos los cuales llenan de orgullo a la institución debido a que el 100% en la actualidad son profesionales exitosos.
                             <br />
-                            En corpaidos, se brinda un servicio educativo acorde a los tiempos actuales de tecnología y en un ambiente que favorece el desarrollo personal, cultural, científico y religioso de nuestros alumnos. Asimismo, se practican principios morales dentro de un marco de justicia, libertad, verdad y solidaridad que los lleva a obtener las metas trazadas, ofreciendo a la sociedad niños y adolescentes con capacidad crítica, creadora, culta, justa, piadosa y solidaria.
+                            En CORPAIDOS, se brinda un servicio educativo acorde a los tiempos actuales de tecnología y en un ambiente que favorece el desarrollo personal, cultural, científico y religioso de nuestros alumnos. Asimismo, se practican principios morales dentro de un marco de justicia, libertad, verdad y solidaridad que los lleva a obtener las metas trazadas, ofreciendo a la sociedad niños y adolescentes con capacidad crítica, creadora, culta, justa, piadosa y solidaria.
                             <br />
                             El colegio Corpaidos prioriza en sus educandos el desarrollo social y emocional como base para obtener aprendizajes de calidad y una personalidad armoniosa defensora de la vida por lo que lleva por lema:
                             <p className="text-xl font-bold">“Las buenas acciones vienen de los buenos pensamientos, en Corpaidos enseñamos a pensar”</p>
@@ -68,11 +68,11 @@ const AboutUs: React.FC = () => {
                 <div className="flex flex-col sm:flex-row bg-blue-DEFAULT p-4 rounded-lg">
                     <div className="h-full sm:w-1/2 p-2 text-justify">
                         <text className="lg:text-xl font-bold">
-                            Descarga Nuestro Folleto Oficial
+                            Descarga Nuestro Folleto Oficial - ( Brochure )
                         </text>
                         <br />
                         <text className='lg:text-xl'>
-                            ¡Explora todo lo que nuestra academia tiene para ofrecer! Descarga nuestro folleto oficial para obtener información detallada sobre horarios, precios, niveles y descubre nuestro enfoque único de las 4A. Este folleto es tu guía completa para conocer todo lo que necesitas para empezar tu viaje de aprendizaje con nosotros.
+                            ¡Explora todo lo que nuestro colegio tiene para ofrecer! Descarga nuestro folleto oficial para obtener información detallada sobre horarios, precios, niveles y descubre nuestro enfoque único de las 4A. Este folleto es tu guía completa para conocer todo lo que necesitas para empezar tu viaje de aprendizaje con nosotros.
                         </text>
                         <br />
                         <a href='./CORPAIDOS.pdf' download rel="noopener noreferrer" className="p-button font-bold">

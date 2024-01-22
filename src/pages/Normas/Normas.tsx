@@ -31,7 +31,7 @@ const Secciones: SeccionType[] = [{
         "No deberán traer celulares, audífonos, MP3 y otros pues serán decomisados, de perderse  alguno de estos objetos el colegio no se responsabiliza.",
         "Los educandos son responsables de su material de trabajo.",
         "En el uniforme de los alumnos deberá bordarse  el nombre para evitar pérdidas y confusiones, de lo contrario el colegio no se responsabiliza.",
-        "Queda terminantemente prohibido tener enamorado dentro del colegio y/o mostras conductas que no van de acuerdo a su edad."],
+        "Queda terminantemente prohibido tener enamorado dentro del colegio y/o mostrar conductas que no van de acuerdo a su edad."],
     title: "Convivencia",
     sideRight: false,
 },
